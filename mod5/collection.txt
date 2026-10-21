@@ -1,0 +1,10 @@
+1. Успех 200
+http://127.0.0.1:8000/api/notes
+http://127.0.0.1:8000/api/notes?id_user=2
+2. Ошибка 400
+http://127.0.0.1:8000/api/notes?id_user=abc
+3.Пустой массив
+http://127.0.0.1:8000/api/notes?id_user=999999
+4.сломан сервер
+http://127.0.0.1:8000/api/notes?error=1
+
